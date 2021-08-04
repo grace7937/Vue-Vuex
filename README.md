@@ -1,4 +1,4 @@
-# vue-vuex
+# vue-todo
 
 ## Project setup
 ```
