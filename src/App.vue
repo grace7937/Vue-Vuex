@@ -14,15 +14,16 @@
 </template>
 
 <script>
-import AddTodo from "../src/components/AddTodo.vue";
-import TodoList from "../src/components/TodoList.vue";
-import CompletedTodo from "../src/components/CompletedTodo.vue";
+import AddTodo from "./components/AddTodo.vue";
+import TodoList from "./components/TodoList.vue";
+import CompletedTodo from "./components/CompletedTodo.vue";
 
 export default {
   components: {
     TodoList,
     AddTodo,
     CompletedTodo,
+    
   },
   data() {
     return {
